@@ -2,64 +2,212 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>JerryDeniz Reklam</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerry Deniz Reklam</title>
 <style>
+*{box-sizing:border-box}
 body{
-background:black;
-color:white;
-font-family:Arial;
-text-align:center;
+  margin:0;
+  font-family:Arial, sans-serif;
+  color:white;
+  background:radial-gradient(circle at top,#3b0764,#090014 45%,#050505);
 }
-h1{color:#bb00ff;}
-.box{
-background:#1a002a;
-margin:20px;
-padding:20px;
-border-radius:15px;
-box-shadow:0 0 20px purple;
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:30px 15px;
 }
-.btn{
-display:block;
-margin:10px;
-padding:15px;
-background:purple;
-color:white;
-text-decoration:none;
-border-radius:10px;
+.hero{
+  text-align:center;
+  padding:45px 20px;
+  border:2px solid #a855f7;
+  border-radius:25px;
+  box-shadow:0 0 35px #9333ea;
+  background:rgba(0,0,0,.55);
+}
+h1{
+  font-size:52px;
+  margin:0;
+  color:#fff;
+  text-shadow:0 0 18px #a855f7;
+}
+.hero span{color:#c084fc}
+.subtitle{
+  font-size:20px;
+  margin-top:15px;
+}
+.section{
+  margin-top:30px;
+  background:rgba(20,0,35,.75);
+  border:1px solid #7e22ce;
+  border-radius:22px;
+  padding:25px;
+  box-shadow:0 0 22px rgba(168,85,247,.5);
+}
+h2{
+  text-align:center;
+  color:#d8b4fe;
+  margin-top:0;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:15px;
+}
+.card{
+  background:#090011;
+  border:1px solid #9333ea;
+  border-radius:18px;
+  padding:18px;
+  text-align:center;
+}
+.icon{font-size:35px}
+.price{
+  font-size:36px;
+  font-weight:bold;
+  color:#fff;
+  text-shadow:0 0 12px #a855f7;
+}
+.package h3{color:#c084fc}
+ul{
+  text-align:left;
+  line-height:1.8;
+}
+.extra{
+  color:#22c55e;
+  font-weight:bold;
+}
+.links a{
+  display:block;
+  margin:12px auto;
+  max-width:520px;
+  padding:16px;
+  border-radius:15px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  background:linear-gradient(90deg,#7e22ce,#db2777);
+  box-shadow:0 0 15px rgba(168,85,247,.7);
+}
+.cta{
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+  color:#fff;
+}
+footer{
+  text-align:center;
+  padding:25px;
+  color:#aaa;
 }
 </style>
 </head>
 
 <body>
+<div class="container">
 
-<h1>🚀 REKLAMINI BİZE VER!</h1>
+  <div class="hero">
+    <h1>REKLAMINI <span>BİZE VER!</span></h1>
+    <p class="subtitle">Ürününü, hizmetini, ilanını ve markanı daha fazla kişiye ulaştır.</p>
+    <p>JerryDeniz reklam alanı ile öne çık!</p>
+  </div>
 
-<div class="box">
-<h2>📢 Reklam Alanları</h2>
-<p>Araç • Ev • Dükkan • Ürün • Hizmet</p>
+  <div class="section">
+    <h2>📢 Her Sektörden Reklam Alıyoruz</h2>
+    <div class="grid">
+      <div class="card"><div class="icon">🚗</div><h3>Araç Satışı</h3><p>Arabanı daha fazla kişiye ulaştır.</p></div>
+      <div class="card"><div class="icon">🏠</div><h3>Ev & Gayrimenkul</h3><p>Konut, arsa, kiralık ve satılık ilanları.</p></div>
+      <div class="card"><div class="icon">🏪</div><h3>İşyeri & Mekan</h3><p>Dükkan, kafe, restoran ve ofis tanıtımı.</p></div>
+      <div class="card"><div class="icon">📦</div><h3>Ürün & Hizmet</h3><p>Ürününü veya hizmetini öne çıkar.</p></div>
+      <div class="card"><div class="icon">🏷️</div><h3>Fırsat & İndirim</h3><p>Kampanya ve özel fırsat duyuruları.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🎁 Kutu Açılışı Reklamı</h2>
+    <div class="grid">
+      <div class="card"><div class="icon">🎁</div><h3>Ürün Tanıtımı</h3><p>Ürününü yayın veya video içinde kutu açılışıyla tanıtalım.</p></div>
+      <div class="card"><div class="icon">🔥</div><h3>Eğlenceli İçerik</h3><p>Reklamın daha dikkat çekici ve akılda kalıcı olsun.</p></div>
+      <div class="card"><div class="icon">💬</div><h3>Canlı Etkileşim</h3><p>İzleyiciler ürünü canlı yayında görür ve sorular sorabilir.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 Reklam Paketlerimiz</h2>
+    <div class="grid">
+      <div class="card package">
+        <h3>Başlangıç</h3>
+        <ul>
+          <li>Yayında 1 kez duyuru</li>
+          <li>Discord paylaşımı</li>
+          <li>Sosyal medya hikaye</li>
+        </ul>
+        <div class="price">149₺</div>
+      </div>
+
+      <div class="card package">
+        <h3>Standart</h3>
+        <ul>
+          <li>Yayında 3 kez duyuru</li>
+          <li>Discord + sosyal medya</li>
+          <li>1 gün sabit paylaşım</li>
+          <li>Hikaye + post</li>
+        </ul>
+        <div class="price">299₺</div>
+      </div>
+
+      <div class="card package">
+        <h3>Pro</h3>
+        <ul>
+          <li>Yayın boyunca tanıtım</li>
+          <li>Tüm platformlarda paylaşım</li>
+          <li>3 gün sabit reklam</li>
+          <li>Hikaye + post + reels</li>
+        </ul>
+        <div class="price">499₺</div>
+      </div>
+
+      <div class="card package">
+        <h3>VIP</h3>
+        <ul>
+          <li>7 gün reklam</li>
+          <li>Yayınlarda özel vurgu</li>
+          <li>Tüm platformlarda öne çıkarma</li>
+          <li>Link + sabit yorum</li>
+        </ul>
+        <div class="price">799₺</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>➕ Ekstra Hizmetler</h2>
+    <div class="grid">
+      <div class="card"><h3>🎯 Hedefli Reklam</h3><p class="extra">+100₺</p></div>
+      <div class="card"><h3>🎨 Özel Afiş Tasarımı</h3><p class="extra">+75₺</p></div>
+      <div class="card"><h3>📌 Sabit Mesaj</h3><p class="extra">+50₺</p></div>
+      <div class="card"><h3>🎁 Kutu Açılışı Ek Paketi</h3><p class="extra">+199₺</p></div>
+    </div>
+  </div>
+
+  <div class="section links">
+    <h2>🔗 Tüm Linklerimiz</h2>
+    <a href="https://jerrydenizz.github.io/" target="_blank">🌐 Web Sitemiz</a>
+    <a href="https://youtube.com/@jerrydenizz" target="_blank">🎮 YouTube Oyun Kanalı</a>
+    <a href="https://www.youtube.com/@deniz_kopal" target="_blank">🎵 YouTube Müzik Kanalı</a>
+    <a href="https://twitch.tv/jerrydenizz" target="_blank">🟣 Twitch</a>
+    <a href="https://instagram.com/jerrydenizz" target="_blank">📸 Instagram</a>
+    <a href="https://tiktok.com/@jerrydenizz" target="_blank">🎵 TikTok</a>
+    <a href="https://discord.gg/ZfGRnVXY" target="_blank">💬 Discord</a>
+  </div>
+
+  <div class="section">
+    <p class="cta">Senin reklamın, bizim gücümüz! 🚀</p>
+    <p style="text-align:center">Yerini ayırt, öne çık!</p>
+  </div>
+
 </div>
 
-<div class="box">
-<h2>💰 Paketler</h2>
-<p>149₺ / 299₺ / 499₺ / 799₺</p>
-</div>
-
-<div class="box">
-<h2>🎁 Kutu Açılış Reklamı</h2>
-<p>Ürünlerini kutu açılışlarıyla tanıt!</p>
-</div>
-
-<div class="box">
-<h2>🔗 Linkler</h2>
-
-<a class="btn" href="https://jerrydenizz.github.io/">Web Site</a>
-<a class="btn" href="https://youtube.com/@jerrydenizz">YouTube</a>
-<a class="btn" href="https://twitch.tv/jerrydenizz">Twitch</a>
-<a class="btn" href="https://instagram.com/jerrydenizz">Instagram</a>
-<a class="btn" href="https://tiktok.com/@jerrydenizz">TikTok</a>
-<a class="btn" href="https://discord.gg/ZfGRnVXY">Discord</a>
-
-</div>
-
+<footer>© 2026 Jerry Deniz Reklam</footer>
 </body>
 </html>
